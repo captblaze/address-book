@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.6.0.js"></script> 
+    <script src="js/script.js"></script> 
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>ADDRESS BOOK</title>
+
+  </head>
+
+<body>
+
+<!--This is the form title-->
+<h2 style="text-align: center;">ADDRESS BOOK</h2>
+
+    <!--This is the personal details form section-->
+ 
+    <form action="index.html" class="data">
+    <fieldset>
+        <legend><strong>Personal Profile</strong> </legend>
+        <form autocomplete="on">
+          <fieldset>
+            <strong>
+              <label for="Firstname">Firstname :</label>
+              <input type="Firstname" class="form-control" placeholder="Enter Firstname" id="Firstname" required><br><br>
+              <label for="Lastname">Lastname:</label>
+              <input type="Lastname" class="form-control" placeholder="Enter Lastname" id="Lastname" required><br><br>
+              <label for="email">Email address:</label>
+              <input type="email" class="form-control" placeholder="Enter email" id="email" required><br><br>
+              <label for="Address">Address:</label>
+              <input type="Address" class="form-control" placeholder="Enter Your Address" id="Address" required><br><br>
+               <label for="phone">Phone number:</label>
+              <input type="phone" class="form-control" placeholder="Phone number" id="phone" required>
+        
+        </div><br>
+             
+          </fieldset>
+        
+    </fieldset><br>
+ 
+    <!--This is the Gender selection section -->
+ <div id="sex">
+ 
+            <legend>Sex</legend> 
+        <input type="radio" name="Gender" value="male" checked>
+        <label for="Male">Male</label><br>
+        <input type="radio" name="Gender" value="female">
+        <label for="Female">Female</label><br>
+    </fieldset><br>
+  </div>
+ 
+
+ <!--This is the country selection section -->
+ <div >
+    <fieldset>
+        <legend>Select Country</legend>
+       
+        <label for="country"><h3>Select your country</h3></label>
+        
+        <select name="country " id="country" >
+            <option value="Select"></option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="Ghana">Ghana</option>
+            <option value="Sieria Leone">Sieria Leone</option>
+            <option value="Togo">Togo</option> <br>
+            <option value="South Africa "> South Africa</option>
+            <option value="Burundi">Burundi</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Benin">Benin</option>
+            <option value="Liberia">Liberia</option>
+            <option value="Egpyt">Egpyt.</option>
+            <option value="Iran">Iran</option>
+            <option value="Iraq">Iraq</option><br>
+        </select><br><br>
+
+      </div>
+            
+            <button type="submit" class="btn btn-primary">Save</button>
+            <input type="reset" class="btn btn-success" name="reset" value="Reset">
+         
+      </fieldset><br><br>
+    
+    <fieldset >
+   
+  </fieldset>
+</div>
+<!--This is the table section showing result-->
+
+<div style="background-color: darkgrey;">
+
+  <div id="table">
+    <table class="container">
+      <tr class="tabletitle">
+        <td class="item">
+          <h2>Name</h2>
+        </td>
+        <td class="Hours">
+          <h2>Phonenumber</h2>
+        </td>
+        <td class="Rate">
+          <h2>Email</h2>
+        </td>
+        <td class="item">
+          <h2>Country</h2>
+          </td>
+          <td class="item">
+            <h2>Sex</h2>
+            </td>
+            <td class="item">
+              <h2>Address</h2>
+              </td>
+      </tr>
+
+      <tr class="service">
+        <td class="tableitem">
+          <p class="m"></p>
+        </td>
+        <td class="tableitem">
+          <p class="e"> </p>
+        </td>
+        <td class="tableitem">
+          <p class="t"> </p>
+        </td>
+        <td class="tableitem">
+          <p class="o"></p>
+        </td>
+        <td class="tableitem">
+          <p class="p"></p>
+        </td>
+        <td class="tableitem">
+          <p class="q"></p>
+        </td>
+        
+      </tr>
+
+      <tr class="service">
+        <td class="tableitem">
+          <p class="itemtext"></p>
+        </td>
+        <td class="tableitem">
+          <p class="itemtext"></p>
+        </td>
+        <td class="tableitem">
+          <p class="itemtext"></p>
+        </td>
+        <td class="tableitem">
+          <p class="itemtext"></p>
+        </td>
+        <td class="tableitem">
+          <p class="itemtext"></p>
+        </td>
+        
+      </tr>
+
+      <tr class="service">
+          <td class="tableitem">
+            <p class="itemtext"></p>
+          </td>
+          <td class="tableitem">
+            <p class="itemtext"></p>
+          </td>
+          <td class="tableitem">
+            <p class="itemtext"></p>
+          </td>
+          <td class="tableitem">
+            <p class="itemtext"></p>
+          </td>
+          <td class="tableitem">
+            <p class="itemtext"></p>
+          </td>
+        </tr>
+
+    </table>
+  </div>
+
+</body>
+</html>
