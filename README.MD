@@ -1,8 +1,8 @@
-# ONLINE STORE / https://github.com/captblaze/Online-Store
+# ADDRESS BOOK / https://github.com/captblaze/address-book
 
-## STANLEY'S CAR LOT  / Synopsis
+## ADDRESS BOOK  / Synopsis
 
-* This is an online store where custoers/clients can buy their Exotic cars online with ease
+* This is an address book where users can save contacts details.
 * Project status: Prototype
 * Visual Studio Code
 * Git
@@ -14,16 +14,14 @@
 
 ## Table of contents
 
-<https://github.com/captblaze/Online-Store.git>:
+<https://github.com/captblaze/address-book.git>:
 
-> * STANLEY'S CAR LOT / captblaze/Online-Store.git
->   * This is an online store where people can buy an exotic car of their choice from the confort of their homes
+> * ADDRESS BOOK / captblaze/address-book.git
+>   * This is an app where you can save contact details and have the displayed easily at the bottom of the page
 ## TABLE OF CONTENT
 
 >   * Home Page https://index.html
->   * Showroom Page https://showroom.html
->   * About Page https://about.html
->   * Contact Us page https://contact.html
+
 ### LAGUAGES USED
 >   * HTML
 >   * JAVASCRIPT
@@ -32,8 +30,22 @@
 >   * JQUERY
 >   * MARKDOWN
 
-## Purchase of exotic cars online with ease and coMfort fro anywhere without having to visit the showroom
+## Saving of contacts and displaying the results on the same page.
+### The web app was created using Forms, while the value of the user input was called on using the .val() method.
 
-### Features
-*select the car of your choice
-*Make payMent with perferred means e.g Cash, Transfers and Crypto as the three available means of aking payent and get the car delivered to your door step.
+## Features
+### The For allows the user to input the following:
+* First Name
+* Last Name
+* E-mail
+* Phone Number
+* Address
+* Sex
+* Country
+### Once these values are entered and the save button is click the inputs by the user is displayed at the bottom of the page in an organised setting.
+
+# KNOWN BUGS.
+* Variable Name (camel casing)
+* Class/ID
+
+### The following bugs prevented the Functions on Jquery to work but after a proper checking of the code, i was able to identify the bugs using CONSOLE to locate where the Bug was and corrected it. 
